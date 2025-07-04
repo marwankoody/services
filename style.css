@@ -129,6 +129,20 @@ h3 { font-size: var(--h3-size); }
     background: rgba(0, 212, 255, 0.1);
 }
 
+.depuis {
+display: block;
+left: 40px;
+letter-spacing: 5px;
+position: fixed;
+text-orientation: mixed;
+top: calc(43%);
+transform: translate(-50%, -50%);
+white-space: pre;
+writing-mode: vertical-lr;
+z-index: 1000;
+color: #ccc;
+}
+
 /* ===== BOUTONS ===== */
 .btn {
     font-family: var(--font-primary);
